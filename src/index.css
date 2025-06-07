@@ -1,0 +1,89 @@
+:root{
+  --bodyBackground : #666161;
+  --mainBackground : #ffffff;
+  --inputBackground : #f9f9f9 ;
+  --buttonBackground : #333 ;
+  --oprBackground : #4a90e2 ;
+  --buttonColor : white ;
+  --eqBackground : #00bfa5 ;
+}
+
+.dark-mode{
+  --bodyBackground : #ffffff;
+  --mainBackground : #000000;
+  --inputBackground : #f9f9f9 ;
+  --buttonBackground : #a50d0d ;
+  --oprBackground : #0052b0 ;
+  --buttonColor : white ;
+  --eqBackground : #1d534b ;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bodyBackground);
+  width: 100vw;
+  height: 120vh;
+}
+
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: var(--mainBackground);
+  width: 400px;
+  padding: 20px 0 20px;
+}
+
+img{
+  width: 40px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 55%;
+  background-color: #ffffff;
+}
+input{
+  width: 85%;
+  border-radius: 10px;
+  border-style: none;
+  padding: 10px;
+  background-color: var(--inputBackground);
+}
+
+.buttonsContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+button{
+  width: 75px;
+  height: 45px;
+  border-radius: 15px;
+  background-color: var(--buttonBackground);
+  border-style: none;
+  border : 1px solid black;
+  color: var(--buttonColor) ;
+}
+
+.opr{
+  background-color: var(--oprBackground);
+}
+.eq{
+  background-color: var(--eqBackground);
+}
+
+.C{
+  flex-basis: 245px;
+}
+
+.target {
+  transition: background-color 0.5s ease, color 0.3s ease;
+}
