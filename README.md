@@ -1,12 +1,10 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+this project is a simple calculator, it considred as my first project after learning a bit about React JS.
 
-Currently, two official plugins are available:
+i managed to challenge my self to implement dark/light consept without watching a toturial or using chatGpt or any eternal help and 
+As a first project i didn't face strugles that took me a lot of time, but still i learned that stuff like even if i am working on my own code, it good to use comments otherwise you might lost in your own code. It happend for me so it is a valuable lesson .
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+although the colour i used aren't well studied, i am aiming to improve myself on the UI/UX in the future 
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I hosted it on Netlfy https://calculatorbyi.netlify.app/
